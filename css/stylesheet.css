@@ -1,0 +1,93 @@
+/* Add a black background color to the top navigation */
+html, body {
+  margin:0;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing:2px;
+  color:white;
+}
+
+.topnav {
+    background-color:#363636;
+    overflow: hidden;
+}
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(105, 115, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left:40px;
+}
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    color: white;
+    transition: color 0.3s;
+  
+}
+  
+  /* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: rgb(105, 115, 255);
+    color: white;
+}
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+}
+
+  /* Below header */
+.belowheader  {
+    background-color:#262626;
+    padding:50px;
+    
+}
+
+.belowheader h1, h3 {
+    display:flex;
+    justify-content: center;
+}
+
+.belowheader h1 {
+    font-size:50px;
+    color: rgb(105, 115, 255);
+
+}
+
+.belowheader h3 {
+    letter-spacing:7px;
+    font-weight:100;
+}
+
+.imagetext-container {
+   background-color:#363636;
+    height:500px;
+    padding:100px;
+    padding-left:300px;
+    padding-right:300px;
+    
+}
+
+.imagetext-container .image {
+  background-color: rgb(105, 115, 255);
+
+    width:400px;
+    height:400px;
+    float:left;
+    }
+
+.imagetext-container .text {
+    float:right;
+    color:black;
+    width:50%;
+}
+
+.imagetext-container .text h1 {
+  color: rgb(105, 115, 255);
+
+}
