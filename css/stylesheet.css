@@ -3,91 +3,60 @@ html, body {
   margin:0;
   font-family: 'Ubuntu', sans-serif;
   letter-spacing:2px;
+}
+
+a {
+  text-decoration:none;
+  color:White;
+}
+
+.left-menu {
+  z-index: 1; /* Stay on top */
+  background-color: #111; /* Black*/
+  height:100%;
+  width:20%;
   color:white;
 }
 
-.topnav {
-    background-color:#363636;
-    overflow: hidden;
-}
-  
-  /* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    display: block;
-    color: rgb(105, 115, 255);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    margin-left:40px;
-}
-  
-  /* Change the color of links on hover */
-.topnav a:hover {
-    color: white;
-    transition: color 0.3s;
-  
-}
-  
-  /* Add an active class to highlight the current page */
-.topnav a.active {
-    background-color: rgb(105, 115, 255);
-    color: white;
-}
-  
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
-    display: none;
+.left-menu .me {
+  padding:30px;
+  font-size:10px;
 }
 
-  /* Below header */
-.belowheader  {
-    background-color:#262626;
-    padding:50px;
-    
+.left-menu .me p {
+  text-transform:uppercase;
 }
-
-.belowheader h1, h3 {
-    display:flex;
-    justify-content: center;
-}
-
-.belowheader h1 {
-    font-size:50px;
-    color: rgb(105, 115, 255);
+.left-menu .navigation {
+  text-align:center;
 
 }
 
-.belowheader h3 {
-    letter-spacing:7px;
-    font-weight:100;
+
+.left-menu .navigation a {
+  text-transform:uppercase;
+  font-size:10px;
+  transition: all 0.3s; 
+  color:grey;
+}
+.left-menu .navigation a:hover {
+  letter-spacing:6px;
+  font-size:11px;
+  font-weight:900;
+  color:white;
+  text-shadow: 1px 1px 8px white;
+
 }
 
-.imagetext-container {
-   background-color:#363636;
-    height:500px;
-    padding:100px;
-    padding-left:300px;
-    padding-right:300px;
-    
+.links {
+  text-align:center;
+  padding-top:30px;
 }
 
-.imagetext-container .image {
-  background-color: rgb(105, 115, 255);
-
-    width:400px;
-    height:400px;
-    float:left;
-    }
-
-.imagetext-container .text {
-    float:right;
-    color:black;
-    width:50%;
+.links .desc {
+  text-transform:uppercase;
 }
 
-.imagetext-container .text h1 {
-  color: rgb(105, 115, 255);
-
+.links .link {
+  text-transform:uppercase;
+  font-size:10px; 
 }
