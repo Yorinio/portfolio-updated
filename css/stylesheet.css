@@ -1,30 +1,39 @@
 /* Add a black background color to the top navigation */
 html, body {
   margin:0;
-  font-family: 'Ubuntu', sans-serif;
-  letter-spacing:2px;
+  font-family: 'Manrope', sans-serif;
+  letter-spacing:1px;
+  color:black;
 }
 
 a {
   text-decoration:none;
-  color:White;
+  color:grey;
 }
 
 .left-menu {
   z-index: 1; /* Stay on top */
-  background-color: #111; /* Black*/
-  height:100%;
+  background-color: #f3f3f3; /* Black*/
+  height:100vh;
   width:20%;
-  color:white;
+  color:black;
+  float:left;
 }
 
 .left-menu .me {
   padding:30px;
-  font-size:10px;
+  font-size:20px;
+  text-align:center;
 }
 
-.left-menu .me p {
-  text-transform:uppercase;
+.left-menu .me h1 {
+  font-size:42px;
+  font-family: 'Manrope', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight:200;
+
 }
 .left-menu .navigation {
   text-align:center;
@@ -33,30 +42,43 @@ a {
 
 
 .left-menu .navigation a {
-  text-transform:uppercase;
-  font-size:10px;
-  transition: all 0.3s; 
+  font-size:20px;
+  transition: all 0.1s; 
   color:grey;
 }
 .left-menu .navigation a:hover {
   letter-spacing:6px;
-  font-size:11px;
   font-weight:900;
-  color:white;
-  text-shadow: 1px 1px 8px white;
-
+  text-transform:uppercase;
 }
 
 .links {
   text-align:center;
   padding-top:30px;
+  background-color:white;
+  position:absolute;
+  z-index:1;
+  margin-left:8vw;
+  margin-top:40vw;
+  width:200px;
+  padding:20px;
+  padding-top:0px;
+  border-radius:10px;
 }
 
 .links .desc {
-  text-transform:uppercase;
+  font-size:20px;
 }
 
 .links .link {
   text-transform:uppercase;
   font-size:10px; 
+}
+
+.page {
+  display:flex;
+}
+
+.main {
+  padding:200px;
 }
